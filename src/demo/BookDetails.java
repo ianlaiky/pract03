@@ -1,10 +1,7 @@
 package demo;
 
-/**
- * Created by 152772A on 11/7/2016.
- */
-public class BookDetails {
 
+public class BookDetails {
     private String bookId = null;
     private String title = null;
     private String firstName = null;
@@ -12,6 +9,8 @@ public class BookDetails {
     private float price = 0.0F;
     private boolean onSale = false;
     private int year = 0;
+    private String description = null;
+    private int inventory = 0;
 
     public String getBookId() {
         return bookId;
@@ -84,7 +83,4 @@ public class BookDetails {
     public void setInventory(int inventory) {
         this.inventory = inventory;
     }
-
-    private String description = null;
-    private int inventory = 0;
 }
